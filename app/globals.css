@@ -1,1 +1,10 @@
 @import 'tailwindcss';
+/* Default styles */
+body {
+  @apply bg-white text-black;
+}
+
+/* Dark mode styles */
+.dark body {
+  @apply bg-gray-900 text-white;
+}
